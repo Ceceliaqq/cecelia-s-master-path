@@ -1,0 +1,32 @@
+# Local reference files and non-public materials. Keep confidential records outside the repo.
+/_local/
+**/private/
+**/data/raw/
+**/data/identifiable/
+
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating systems and temporary files
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.swp
+*.bak
+
+# Optional analysis environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+node_modules/
